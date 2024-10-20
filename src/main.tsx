@@ -6,7 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Home from './routes/Home.tsx';
 import Repositories from './components/Repositories.tsx';
-import Error from './components/Error.tsx'; // Componente de erro
 import { Routes, Route } from 'react-router-dom';
 
 const root = createRoot(document.getElementById('root')!);
