@@ -1,0 +1,40 @@
+.repositories {
+    background-color: #2b3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    color: #9da5d1;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #ffffff; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.repoItem {
+    margin: 10px 0;
+    padding: 1rem; 
+    background-color: #0e1129; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.repoItem:hover {
+    background-color: #1e2536; 
+}
+
+.repoItem a {
+    text-decoration: none;
+    color: #9da5d1; 
+    font-weight: bold; 
+}
+
+.repoItem a:hover {
+    text-decoration: underline; 
+}
